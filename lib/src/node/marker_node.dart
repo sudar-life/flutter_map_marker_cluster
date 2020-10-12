@@ -22,4 +22,7 @@ class MarkerNode implements Marker {
 
   @override
   double get width => marker.width;
+
+  @override
+  Map<String, Object> get metaData => marker.metaData;
 }
